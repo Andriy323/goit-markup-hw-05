@@ -99,7 +99,6 @@ img {
 }
 
 .modal-close {
-  z-index: 1000;
   position: absolute;
   cursor: pointer;
   top: 8px;
@@ -110,6 +109,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 
   fill: #000000;
+  transition: fill var(--anim250-cubic-bezier);
 
   background-color: var(--white-color);
   opacity: 1;
