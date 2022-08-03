@@ -108,10 +108,16 @@ img {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  /* background-color:var(--white-color); */
+
+  fill: #000000;
 
   background-color: var(--white-color);
   opacity: 1;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  fill: var(--accent-color);
 }
 
 /* <<<---HEADER--->>> */
@@ -426,12 +432,6 @@ img {
   color: var(--white-color);
 }
 
-/* .team-soc-link:hover .team-icons,
-.team-soc-link:focus .team-icons {
-  
-  fill: var(--white-color);
-} */
-
 /* <<<---CLIENT--->>> */
 .client-title {
   font-weight: 700;
@@ -686,10 +686,10 @@ img {
 .project-text {
   position: absolute;
   font-style: normal;
-  font-weight: 400;
+
   font-size: 18px;
   line-height: 1.56;
-  /* or 156% */
+
   bottom: 0;
   padding: 63px 24px;
 
@@ -707,10 +707,6 @@ img {
   transform: translateY(0);
 }
 
-/* .project-item:hover,
-.project-item:focus {
-  
-} */
 .project-link {
   display: block;
 
